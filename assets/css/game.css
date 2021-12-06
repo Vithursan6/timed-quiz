@@ -1,0 +1,54 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.4rem;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color: honeydew;
+    box-shadow: 0.2rem 0.2rem grey;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(28, 31, 32, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix {
+    padding: 1.4rem 2.5rem;
+    background-color: rgb(174, 79, 238);
+    box-shadow: 0.1rem 0.1rem black;
+    color: white;
+    text-shadow: 0.2rem 0.2rem rgb(17, 16, 16);
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: chartreuse;
+}
+
+.incorrect {
+    background-color: crimson;
+}
+
+#disp {
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 0.3rem 0.3rem black;
+}
+
+.disp-prefix {
+    text-align: center;
+    font-size: 1rem;
+    color: blueviolet;
+    text-shadow: 0.05rem 0.05rem black;
+}
+
+.disp-text{
+    text-align: center;
+}
